@@ -1,0 +1,117 @@
+/* Font Style of the body */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+/* Common Style */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* First Container */
+.container-1{
+    background-color: #2D25A0;
+    width: 1440px;
+    height: 677px;
+}
+.top-view{
+    display: grid;
+    grid-template-columns: repeat(2,1fr) ;
+    grid-column-gap: 102px;
+    margin-left: 156px;
+    margin-right: 140.9px;
+}
+.left-side{
+    margin-top: 153.88px;
+    /* grid-row-gap: 27px; */
+}
+.title-section{
+font-size: 64px;
+color: white;
+width: 485px;
+height: 230px;
+padding-bottom: 27px;
+}
+button{
+    font-size: 16px; 
+    background-color: #E02C6D;
+    height: 44px;
+    width: 168px;
+    padding: 0px;
+}
+.link
+{
+    color: white;
+    text-decoration: none;
+}
+span{
+    height: 24px;
+    width: 24px;
+    color: white;
+}
+
+.right-side img{
+    width: 556.01px;
+    height: 438px;
+    margin-top: 153px;
+}
+/* Container 2 */
+
+.players img{
+    width: 300px;
+    height: 256px;
+    /* align-items: center; */
+
+    
+}
+h3{
+    font-size: 28px;
+    margin-top: 16px;
+    margin-bottom: 10px;
+}
+p{
+    font-size: 16px;
+    color: #6C6C6C;
+    /* padding-right: 15px; */
+    margin-bottom: 33px;
+    
+}
+.biography{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 27px;
+    margin-left: 180px;
+    margin-right: 210px;
+    margin-top: 70px;
+}
+.players{
+    border: 1px solid white; 
+    box-shadow: 1px 1px 15px 1px #b8b2b2;
+    /* width: 330px;
+    height: 474px; */
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 33px;
+   padding-right: 15px;
+
+}
+.footer-bottom{
+width: 483.87px;
+height: 110px;
+margin-left: auto;
+margin-right: auto;
+display: block;
+margin-top: 750px;
+}
+.align{
+    text-align: center;
+}
+.icon-1, .icon{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-left: 14px;
+margin-right: 14px;
+margin-bottom: 20px;
+size: 32px;
+
+}
